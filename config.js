@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "ARSLAN-MD~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUpudmFjd1BqVjZWRFlTc0hTcXloVXB2KzBlZzltT0J0WUx6K1FmRWpFbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic3oweW01YkxSWjdEeDNEYVk3L1pvUFZPTFZONUNpcTVmakdUMXFRM1Ntaz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTS25tNHFwTjNRb0daWmxwVDJRSTIwVVVmeFNjM0NDY3JEeG9CS2F6TmtvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxaXBNRWdKdFpvRUFlWUhGaTcrOFRha1JpaGNvT2NBRTI0V3pyZUp0aTNjPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjhPd2pKR0NDQ0UwbGM3WVJTdk1mWUtPMDMyNVd2enlhWVRtOUF5cE1LRUU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkVXaEdaR1ZRdk1MaXcrV0RMQ3FlV0RVajE3azd4QXFiNDNWRUNpODdtVHc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMFBSMWs1QnEreVlJN0hOelluSUloYkdVWWpNVk5PbDZZazg1anZINTNGOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicEhpd05vbThYOVFUM1VLaEcvamdub2hSSSsxeUdBNTQ1YVhyUXorMXVuQT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjJNamVnOXFUWlNiZUJucnlGNmc2dXVJeDhrMmM0Y3labUtJYXgvMUdIa0pBY1R0UDJjTzl2L25uTElRL0hKWC90akVTVXkzbVBONkNGVU85TVNsZGd3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NTYsImFkdlNlY3JldEtleSI6IlFQNnpIYlRCcDVHWnc3Yy8xaXNDRUp3cGRzcGdraUlPV09JTjMzVFp2RkE9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiOTIzMTI2MTg0OTk3QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkU1REYxRURBNjY5RjFFN0RBMDg5MkEzNjUwMzRDMkQwIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3NTUwMjIyNDh9LHsia2V5Ijp7InJlbW90ZUppZCI6IjkyMzEyNjE4NDk5N0BzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJDMThBMzkzNjQxOTZCMTkwM0Q2OEE3OTg4MjgzRTg3NSJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzU1MDIyMjQ4fSx7ImtleSI6eyJyZW1vdGVKaWQiOiI5MjMxMjYxODQ5OTdAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiNjdENERBMjE1NjgwQ0I3Q0Q1MTZFQTYwNkY5RjhEMzIifSwibWVzc2FnZVRpbWVzdGFtcCI6MTc1NTAyMjI1MH1dLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sInJlZ2lzdGVyZWQiOnRydWUsInBhaXJpbmdDb2RlIjoiUEJaTlFOUUMiLCJtZSI6eyJpZCI6IjkyMzEyNjE4NDk5NzoxQHMud2hhdHNhcHAubmV0IiwibGlkIjoiMTU3ODAxOTgwNjY1OTExOjFAbGlkIiwibmFtZSI6IlJhbmFBd2FpcyJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDUGJwaTY4REVLT0g3c1FHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiLzZEbjZWQ3o0NjJRM09WbWdzeEtTM2tUbllWN0pTTkRKMFV3R3hEVHd4VT0iLCJhY2NvdW50U2lnbmF0dXJlIjoieE1HdDVZTlEzd2NCUTZiRmYwaUg2c0pocmFTbmxBbTd6c2xGajBxZFRILzg1YnQvNStxalBRNGZpT0FHRW9DK25qTEZ1RVJpbm5raGxSd0MrcGlGQ2c9PSIsImRldmljZVNpZ25hdHVyZSI6Ilg2Rk1QVy9SRElSZkVCYmxZOUhoUGRCWm9hRTJGR0tJNHpFU3hCTkRPaStlQVhmT1pHcjU1SGl4QUoyWkpWRkQ2d0FDQmJrdGd4UlI4bUZFb1BKUmlRPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTIzMTI2MTg0OTk3OjFAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCZitnNStsUXMrT3RrTnpsWm9MTVNrdDVFNTJGZXlValF5ZEZNQnNRMDhNViJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsInJvdXRpbmdJbmZvIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0JJSUJRPT0ifSwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzU1MDIyMjQ2LCJsYXN0UHJvcEhhc2giOiJQV2s1QiIsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSFlOIn0=",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -27,7 +27,7 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/yj7zp0.png",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/tom52w.jpg",
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -43,13 +43,13 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923237045919",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923126184997",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ArslanMD Official",
+OWNER_NAME: process.env.OWNER_NAME || "Rana-Awais",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 Arslan_MD*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/yj7zp0.png",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/tom52w.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> I'm alive*Arslan_MD*🇵🇰",
 // add alive msg here 
